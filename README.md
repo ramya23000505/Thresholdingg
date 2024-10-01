@@ -43,9 +43,9 @@ import cv2
 
 # Read the Image and convert to grayscale
 ```PY
-image = cv2.imread('SF23.jpg',1)
+image = cv2.imread('girl.jpg',1)
 image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
-image_gray = cv2.imread('SF23.jpg',0)
+image_gray = cv2.imread('girl.jpg',0)
 ```
 # Use Global thresholding to segment the image
 ```PY
@@ -84,32 +84,27 @@ for i in range(0,9):
 ## Output
 
 ### Original Image
-<br>
-<br>
-<br>
-<br>
-<br>
+![Screenshot 2024-10-01 194110](https://github.com/user-attachments/assets/29fe3aea-1dd2-4315-893a-6dbe6632251c)
 
 ### Global Thresholding
-<br>
-<br>
-<br>
-<br>
-<br>
+![Screenshot 2024-10-01 194123](https://github.com/user-attachments/assets/19142558-7dce-4098-b394-861ff30af57b)
+
+![Screenshot 2024-10-01 194134](https://github.com/user-attachments/assets/7771861c-09a1-4780-bd69-3cf11ce0cd3c)
+
+![Screenshot 2024-10-01 194141](https://github.com/user-attachments/assets/50b3a7f3-cf3f-441b-aacc-5072e0b703d6)
+
+![Screenshot 2024-10-01 194149](https://github.com/user-attachments/assets/1e9e63f8-2c00-4b65-aad4-93ae176c7b66)
+
+![Screenshot 2024-10-01 194156](https://github.com/user-attachments/assets/2078fcd1-9fe0-4a38-bc4c-2094a8548fc0)
 
 ### Adaptive Thresholding
-<br>
-<br>
-<br>
-<br>
-<br>
+![Screenshot 2024-10-01 194205](https://github.com/user-attachments/assets/00660be0-7a3a-4059-9b85-be81415e1430)
+
+![Screenshot 2024-10-01 194212](https://github.com/user-attachments/assets/3fc83ba7-f99f-423c-beaf-a2f463372133)
 
 ### Optimum Global Thesholding using Otsu's Method
-<br>
-<br>
-<br>
-<br>
-<br>
+![Screenshot 2024-10-01 194221](https://github.com/user-attachments/assets/a0a6ef58-8cad-4e3b-a63b-40fcaedcd6cc)
+
 
 
 ## Result
